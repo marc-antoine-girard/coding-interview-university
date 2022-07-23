@@ -1,21 +1,21 @@
-# Coding Interview University
 
-> I originally created this as a short to-do list of study topics for becoming a software engineer,
-> but it grew to the large list you see today. After going through this study plan, [I got hired
-> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> You probably won't have to study as much as I did. Anyway, everything you need is here.
+# Université d'entrevue de codage
+
+> J'ai initialement créé cette courte liste de sujets d'étude pour devenir ingénieur logiciel,
+mais elle est devenu la grande liste que vous voyez aujourd'hui. Après avoir suivi ce plan d'études, [j'ai été embauché en tant qu'ingénieur en développement logiciel chez Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 
+> Vous n'aurez probablement pas à étudier autant que moi. Quoi qu'il en soit, tout ce dont vous avez besoin est ici.
 >
-> I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+> J'ai étudié environ 8 à 12 heures par jour, pendant plusieurs mois. Voici mon histoire : [Pourquoi j'ai étudié à temps plein pendant 8 mois pour un entretien avec Google](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
-> **Please Note:** You won't need to study as much as I did. I wasted a lot of time on things I didn't need to know. More info about that below. I'll help you get there without wasting your precious time.
+> **Veuillez noter** : Vous n'aurez pas besoin d'étudier autant que moi. J'ai perdu beaucoup de temps sur des choses dont je n'avais pas besoin de savoir. Plus d'informations à ce sujet ci-dessous. Je vais vous aider à y arriver sans perdre votre temps précieux.
 >
-> The items listed here will prepare you well for a technical interview at just about any software company,
-> including the giants: Amazon, Facebook, Google, and Microsoft.
+>  Les éléments énumérés ici vous prépareront bien à un entretien technique dans à peu près n'importe quelle compagnie de logiciels, 
+>  dont les géants : Amazon, Facebook, Google et Microsoft.
 >
-> *Best of luck to you!*
+> *Bonne chance à vous!*
 
 <details>
-<summary>Translations:</summary>
+<summary>Traductions:</summary>
 
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
@@ -35,7 +35,7 @@
 </details>
 
 <details>
-<summary>Translations in progress:</summary>
+<summary>Traductions en cours:</summary>
 
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
@@ -57,10 +57,10 @@
 <div align="center">
 	<hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+        <a href="https://github.com/sponsors/jwasham"><strong>Devenez un sponsor</strong> et soutenez Coding Interview University!</a>
     </p>
     <p>
-        <strong>Special thanks to:</strong>
+        <strong>Remerciements particuliers à:</strong>
     </p>
     <p>
         <a href="https://oss.capital/">
@@ -68,7 +68,7 @@
                 <img src="https://d3j2pkmjtin6ou.cloudfront.net/sponsors/oss-capital.svg" width="350" alt="OSS Capital">
             </div>
             <div>
-                <sup><strong>Founded in 2018, OSS Capital is the first and only venture capital platform focused<br>exclusively on supporting early-stage COSS (commercial open source) startup founders.</strong></sup>
+                <sup><strong>Fondée en 2018, OSS Capital est la première et la seule plateforme de capital-risque qui se concentre<br>exclusivement sur le soutien aux fondateurs de startups COSS (commercial open source) en phase de démarrage.</strong></sup>
             </div>
         </a>
     </p>
@@ -80,39 +80,39 @@
             </div>
             <div>
                 <p>
-                    <strong>Dev environments built for the cloud</strong>
+                    <strong>Des environnements de développement conçus pour le cloud</strong>
                 </p>
             </div>
             <div>
-                <sup>Natively integrated with GitLab, GitHub, and Bitbucket, Gitpod automatically and continuously prebuilds dev environments for all your branches. As a result team members can instantly start coding with fresh dev environments for each new task - no matter if you are building a new feature, want to fix a bug, or work on a code review.</sup>
+                <sup>Nativement intégré à GitLab, GitHub et Bitbucket, Gitpod préconstruit automatiquement et en continu des environnements de développement pour toutes vos branches. Les membres de l'équipe peuvent ainsi commencer à coder instantanément avec de nouveaux environnements de développement pour chaque nouvelle tâche, qu'il s'agisse de la création d'une nouvelle fonctionnalité, de la correction d'un bogue ou d'une révision de code.</sup>
             </div>
         </a>
     </p>
     <hr />
 </div>
 
-## What is it?
+## Qu'est-ce que c'est?
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-This is my multi-month study plan for becoming a software engineer for a large company. 
+Voici mon plan d'étude de plusieurs mois pour devenir ingénieur logiciel dans une grande entreprise. 
 
-**Required:** 
-* A little experience with coding (variables, loops, methods/functions, etc)
-* Patience
-* Time
+**Requis:** 
+* Un peu d'expérience en programmation (variables, boucles, méthodes/fonctions, etc.)
+* De la patience
+* Du temps
 
-Note this is a study plan for **software engineering**, not web development. Large software companies like Google, Amazon, 
-Facebook and Microsoft view software engineering as different from web development. For example, Amazon has 
-Frontend Engineers (FEE) and Software Development Engineers (SDE). These are 2 separate roles and the interviews for 
-them will not be the same, as each has its own competencies. These companies require computer science knowledge for 
-software development/engineering roles.
+Notez qu'il s'agit d'un plan d'étude pour le **génie logiciel**, et non pour le développement web. Les grandes entreprises de logiciels comme Google, Amazon,
+Facebook et Microsoft considèrent que le génie logiciel est différent du développement Web. Par exemple, Amazon a
+Frontend Engineers (FEE) et Software Development Engineers (SDE). Il s'agit de deux rôles distincts et les entretiens pour
+ne seront pas les mêmes, car chacun a ses propres compétences. Ces entreprises exigent des connaissances en informatique pour
+pour les rôles de développement de logiciels/ingénierie.
 
 ---
 
-## Table of Contents
+## Table des matières
 
-### The Study Plan
+### Le plan d'étude
 
 - [What is it?](#what-is-it)
 - [Why use it?](#why-use-it)
