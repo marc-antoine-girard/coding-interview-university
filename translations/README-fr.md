@@ -114,9 +114,9 @@ pour les rôles de développement de logiciels/ingénierie.
 
 ### Le plan d'étude
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
+- [Qu'est-ce que c'est?](#what-is-it)
+- [Pourquoi l'utiliser?](#why-use-it)
+- [Comment l'utiliser](#how-to-use-it)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
 - [A Note About Video Resources](#a-note-about-video-resources)
 - [Choose a Programming Language](#choose-a-programming-language)
@@ -128,30 +128,30 @@ pour les rôles de développement de logiciels/ingénierie.
 - [Coding Question Practice](#coding-question-practice)
 - [Coding Problems](#coding-problems)
 
-### Topics of Study
+### Sujets d'étude
 
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - merge sort
+- [Complexité algorithmique / Big-O / Analyse asymptotique](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Structures de données](#data-structures)
+    - [Arrays (Tableaux)](#arrays)
+    - [Linked Lists (Listes liées)](#linked-lists)
+    - [Stack (Pile)](#stack)
+    - [Queue (File)](#queue)
+    - [Hash table (Table de hachage)](#hash-table)
+- [Plus de connaissances](#more-knowledge)
+    - [Recherche binaire (Binary search)](#binary-search)
+    - [Opérations par bit (Bitwise operations)](#bitwise-operations)
+- [Arbres](#trees) ♠
+    - [Arbres - Notes et contexte](#trees---notes--background) ♠
+    - [Arbres de recherche binaires : BSTs](#binary-search-trees-bsts) ♠
+    - [Tas / File de priorité / Tas binaire](#heap--priority-queue--binary-heap) ♠
+    - Arbres de recherche équilibrés (concept général, pas de détails) ♠
+    - traversals: preorder, inorder, postorder, BFS, DFS ♠
+- [Triage](#sorting)
+    - Tri par selection
+    - Tri par insertion
+    - Tri par tas (heapsort)
+    - Tri rapide (quicksort)
+    - Tri fusion (merge sort)
 - [Graphs](#graphs)
     - directed
     - undirected
@@ -176,7 +176,7 @@ pour les rôles de développement de logiciels/ingénierie.
     - [Networking](#networking)
 - [Final Review](#final-review)
 
-### Getting the Job
+### Obtenir le poste
 
 - [Update Your Resume](#update-your-resume)
 - [Find a Job](#find-a-job)
@@ -236,45 +236,40 @@ pour les rôles de développement de logiciels/ingénierie.
 
 ---
 
-## Why use it?
+## Pourquoi l'utiliser?
 
-If you want to work as a software engineer for a large company, these are the things you have to know.
+Si vous voulez travailler comme ingénieur logiciel dans une grande entreprise, voici les choses que vous devez savoir.
 
-If you missed out on getting a degree in computer science, like I did, this will catch you up and save four years of your life.
+Si, comme moi, vous n'avez pas réussi à obtenir un diplôme en informatique, ce cours vous permettra de vous rattraper et sauver quatre ans de votre vie.
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, or anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it would have been terrible.
-Every data structure I had ever used was built into the language, and I didn't know how they worked
-under the hood at all. I never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I used a few multidimensional arrays in my life and
-thousands of associative arrays, but I never created data structures from scratch.
+Quand j'ai commencé ce projet, je ne connaissais pas la différence entre une pile (stack) et un tas (heap), je ne connaissais pas le Big-O, ni les arbres, ni la façon de traverser un graphe. Si j'avais dû coder un algorithme de tri, je peux vous dire que cela aurait été terrible. Toutes les structures de données que j'utilisais étaient intégrées dans le langage, et je ne savais pas comment elles fonctionnaient sous le capot. Je n'avais jamais eu à gérer la mémoire, c'est seulement lorqu'un processus lançait un "out of memory" que je devais trouver une solution pour contourner l'erreur. J'ai utilisé quelques tableaux multidimensionnels dans ma vie et des milliers de tableaux associatifs, mais je n'ai jamais créé de structures de données à partir de rien.
 
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
+C'est un long projet. Cela peut vous prendre des mois. Si vous en connaissez déjà beaucoup, cela vous prendra beaucoup moins de temps.
 
-## How to use it
+## Comment l'utiliser
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Tout ce qui suit n'est qu'un aperçu, et vous devez aborder les éléments dans l'ordre, de haut en bas.
 
-I'm using GitHub's special markdown flavor, including tasks lists to track progress.
-  - [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+J'utilise la version markdown spéciale de GitHub, y compris les listes de tâches pour suivre les progrès.
+  - [En savoir plus sur le markdown à la sauce GitHub](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-### If you don't want to use git
+### Si vous ne voulez pas utiliser git
 
-On this page, click the Code button near the top, then click "Download ZIP". Unzip the file and you can work with the text files.
+Sur cette page, cliquez sur le bouton Code en haut de la page, puis sur "Download ZIP". Décompressez le fichier et vous pourrez travailler avec les fichiers texte.
 
-If you're open in a code editor that understands markdown, you'll see everything formatted nicely.
+Si vous ouvrez dans un éditeur de code qui comprend le format markdown, vous verrez que tout est joliment formaté.
 
 ![How to download the repo as a zip file](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
 
-### If you're comfortable with git
+### Si vous êtes à l'aise avec git
 
-Create a new branch so you can check items like this, just put an x in the brackets: [x]
+Créez une nouvelle branche pour pouvoir vérifier des éléments comme celui-ci, il suffit de mettre un x entre les parenthèses : [x]
 
-    Fork a branch and follow the commands below
+    Faites un Fork d'une branche et suivez les commandes ci-dessous
 
-Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button.
+Faites un Fork du repo GitHub https://github.com/jwasham/coding-interview-university en cliquant sur le bouton Fork.
 
-Clone to your local repo:
+Clonez vers votre repo local:
 
     git clone git@github.com:<your_github_username>/coding-interview-university.git
     cd coding-interview-university
@@ -282,7 +277,7 @@ Clone to your local repo:
     git remote add jwasham https://github.com/jwasham/coding-interview-university
     git fetch --all
 
-Mark all boxes with X after you completed your changes:
+Marquez d'un X toutes les cases après avoir effectué vos modifications :
 
     git add .
     git commit -m "Marked x"
@@ -290,7 +285,7 @@ Mark all boxes with X after you completed your changes:
     git push --set-upstream origin progress
     git push --force
 
-## Don't feel you aren't smart enough
+## Ne pensez pas que vous n'êtes pas assez intelligent.
 
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
