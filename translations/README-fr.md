@@ -9,7 +9,7 @@ mais elle est devenu la grande liste que vous voyez aujourd'hui. Après avoir su
 >
 > **Veuillez noter** : Vous n'aurez pas besoin d'étudier autant que moi. J'ai perdu beaucoup de temps sur des choses dont je n'avais pas besoin de savoir. Plus d'informations à ce sujet ci-dessous. Je vais vous aider à y arriver sans perdre votre temps précieux.
 >
->  Les éléments énumérés ici vous prépareront bien à un entretien technique dans à peu près n'importe quelle compagnie de logiciels, 
+>  Les éléments énumérés ici vous prépareront à un entretien technique dans à peu près n'importe quelle compagnie de logiciels, 
 >  dont les géants : Amazon, Facebook, Google et Microsoft.
 >
 > *Bonne chance à vous!*
@@ -287,44 +287,41 @@ Marquez d'un X toutes les cases après avoir effectué vos modifications :
 
 ## Ne pensez pas que vous n'êtes pas assez intelligent.
 
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- Les ingénieurs logiciels qui réussissent sont intelligents, mais beaucoup d'entre eux craignent de ne pas être assez intelligents.
+- [Le mythe du programmeur génie](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Le danger d'y aller seul : Combattre les monstres invisibles de la technologie](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## A Note About Video Resources
+## Note sur les ressources vidéo
 
-Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
+Certaines vidéos ne sont disponibles qu'en s'inscrivant à une classe Coursera ou EdX. C'est ce qu'on appelle les MOOC.
+Parfois, les cours n'ont pas lieu et vous devez attendre quelques mois, ce qui vous empêche d'y accéder.
 
-It would be great to replace the online course resources with free and always-available public sources, 
-such as YouTube videos (preferably university lectures), so that you people can study these anytime, 
-not just when a specific online course is in session.
+Il serait formidable de remplacer les ressources des cours en ligne par des sources publiques gratuites et toujours disponibles, 
+comme des vidéos YouTube (de préférence des conférences universitaires), afin que vous puissiez les étudier à tout moment, 
+et pas seulement lorsqu'un cours en ligne est en cours.
 
-## Choose a Programming Language
+## Choisir un langage de programmation
 
-You'll need to choose a programming language for the coding interviews you do, 
-but you'll also need to find a language that you can use to study computer science concepts.
+Vous devrez choisir un langage de programmation pour les entretiens de codage que vous ferez, 
+mais vous devrez aussi trouver un langage que vous pourrez utiliser pour étudier les concepts informatiques.
 
-Preferably the language would be the same, so that you only need to be proficient in one.
+Il est préférable que le langage soit le même, de sorte que vous ne deviez en maîtriser qu'un seul.
 
-### For this Study Plan
+### Pour ce plan d'étude
 
-When I did the study plan, I used 2 languages for most of it: C and Python
+Quand j'ai fait le plan d'étude, j'ai utilisé 2 langages pour la plupart : C et Python
 
-* C: Very low level. Allows you to deal with pointers and memory allocation/deallocation, so you feel the data structures 
-    and algorithms in your bones. In higher level languages like Python or Java, these are hidden from you. In day to day work, that's terrific,
-    but when you're learning how these low-level data structures are built, it's great to feel close to the metal.
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
-    - [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - You don't need to go super deep in the book (or even finish it). Just get to where you're comfortable reading and writing in C.
-        - [Answers to questions in the book](https://github.com/lekkas/c-algorithms)
-* Python: Modern and very expressive, I learned it because it's just super useful and also allows me to write less code in an interview.
+* C : Très bas niveau. Permet de traiter les pointeurs et l'allocation/désallocation de mémoire, de sorte que vous sentez les structures de données et les algorithmes dans vos os. Dans les langages de plus haut niveau comme Python ou Java, ces éléments vous sont cachés. Dans le travail quotidien, c'est formidable, mais lorsque vous apprenez comment ces structures de données de bas niveau sont construites, vous vous sentirez beaucoup plus en contrôle.
+    - Le C est partout. Vous verrez des exemples dans les livres, les cours, les vidéos, *partout* pendant que vous étudiez.
+    - [Le langage de programmation C, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        - Ce livre est court, mais il vous permettra de vous familiariser avec le langage C et, si vous le pratiquez un peu, vous le maîtriserez rapidement. Comprendre le C vous aide à comprendre le fonctionnement des programmes et de la mémoire.
+        - Vous n'avez pas besoin d'aller très loin dans le livre (ni même de le terminer). Il vous suffit de vous sentir à l'aise pour lire et écrire en C.
+        - [Réponses aux questions du livre](https://github.com/lekkas/c-algorithms)
+* Python : Moderne et très expressif, je l'ai appris parce qu'il est juste super utile et me permet aussi d'écrire moins de code lors d'un entretien.
 
-This is my preference. You do what you like, of course.
+C'est ma préférence. Vous faites ce que vous voulez, bien sûr.
 
-You may not need it, but here are some sites for learning a new language:
+Vous n'en aurez peut-être pas besoin, mais voici quelques sites pour apprendre un nouveau langage:
 - [Exercism](https://exercism.org/tracks)
 - [Codewars](http://www.codewars.com)
 - [Codility](https://codility.com/programmers/)
@@ -333,108 +330,107 @@ You may not need it, but here are some sites for learning a new language:
 - [Codechef](https://www.codechef.com/)
 - [Codeforces](https://codeforces.com/)
 
-### For your Coding Interview
+### Pour votre entretien de codage
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+Vous pouvez utiliser un langage dans lequel vous êtes à l'aise pour faire la partie codage de l'entretien, mais pour les grandes entreprises, voici des choix solides :
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Vous pouvez aussi ces langages, mais lisez d'abord ce qui suit. Il peut y avoir des réserves :
 
 - JavaScript
 - Ruby
 
-Here is an article I wrote about choosing a language for the interview: 
-[Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
-This is the original article my post was based on: [Choosing a Programming Language for Interviews](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
+Voici un article que j'ai écrit sur le choix d'un langage pour l'entretien : 
+[Choisissez un langage pour l'entretien de codage](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
+Voici l'article original sur lequel se base mon post: [Choix d'un langage de programmation pour les entretiens](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
 
-You need to be very comfortable in the language and be knowledgeable.
+Vous devez être très à l'aise dans le langage et avoir beaucoup des connaissances.
 
-Read more about choices: 
-- [Choose the Right Language for Your Coding Interview](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
+En savoir plus sur les choix: 
+- [Choisissez le bon langage pour votre entretien de codage](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
 
-[See language-specific resources here](programming-language-resources.md)
+[Voir les ressources spécifiques aux langues ici](programming-language-resources.md)
 
-## Books for Data Structures and Algorithms
+## Livres sur les structures de données et les algorithmes
 
-This book will form your foundation for computer science.
+Ce livre constituera votre base pour l'informatique.
 
-Just choose one, in a language that you will be comfortable with. You'll be doing a lot of reading and coding.
+Choisissez-en simplement un, dans un langage avec laquelle vous serez à l'aise. Vous aurez beaucoup à lire et à coder.
 
 ### C
 
-- [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
-    - Fundamentals, Data Structures, Sorting, Searching, and Graph Algorithms 
+- [Algorithmes en C, Parties 1-5 (Bundle), 3ème édition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
+    - Fondamentaux, structures de données, tri, recherche et algorithmes graphiques 
 
 ### Python
 
-- [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - by Goodrich, Tamassia, Goldwasser
-    - I loved this book. It covered everything and more.
-    - Pythonic code
-    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+- [Structures de données et algorithmes en Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - Par Goodrich, Tamassia, Goldwasser
+    - J'ai adoré ce livre. Il couvre tout et plus encore.
+    - Code pythonique
+    - mon élogieux rapport du livre: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
 ### Java
 
-Your choice:
+Vous avez le choix :
 
 - Goodrich, Tamassia, Goldwasser
-    - [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+    - [Structures de données et algorithmes en Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
 - Sedgewick and Wayne:
-    - [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - Free Coursera course that covers the book (taught by the authors!):
-        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
-        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+    - [Algorithmes](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - Cours Coursera gratuit qui couvre le livre (enseigné par les auteurs!):
+        - [Algorithmes I](https://www.coursera.org/learn/algorithms-part1)
+        - [Algorithmes II](https://www.coursera.org/learn/algorithms-part2)
 
 ### C++
 
-Your choice:
+Vous avez le choix :
 
 - Goodrich, Tamassia, and Mount
-    - [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
+    - [Structures de données et algorithmes en C++, 2e édition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
 - Sedgewick and Wayne
-    - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-    - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+    - [Algorithmes en C++, Parties 1-4 : Principes fondamentaux, structure de données, tri et recherche](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+    - [Algorithmes en C++ Partie 5 : Algorithmes graphiques](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-## Interview Prep Books
+## Livres de préparation à l'entretien
 
-You don't need to buy a bunch of these. Honestly "Cracking the Coding Interview" is probably enough, 
-but I bought more to give myself more practice. But I always do too much.
+Vous n'avez pas besoin d'en acheter un tas. Honnêtement "Cracking the Coding Interview" est probablement suffisant, 
+mais j'en ai acheté plus pour me donner plus de pratique. Mais j'en fais toujours trop.
 
-I bought both of these. They gave me plenty of practice.
+J'ai acheté les deux. Ils m'ont donné beaucoup de pratique.
 
-- [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    - Answers in C++ and Java
-    - This is a good warm-up for Cracking the Coding Interview
-    - Not too difficult. Most problems may be easier than what you'll see in an interview (from what I've read)
-- [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - answers in Java
+- [Les entretiens de programmation exposés : Coder votre chemin à travers l'entretien, 4e édition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
+    - Réponses en C++ et Java
+    - C'est un bon échauffement pour "Cracking the Coding Interview".
+    - Pas trop difficile. La plupart des problèmes sont plus faciles que ce que vous verrez dans un entretien (d'après ce que j'ai lu).
+- [Cracking the Coding Interview, 6ème édition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - réponses en Java
 
-### If you have tons of extra time:
+### Si vous avez des tonnes de temps supplémentaire:
 
-Choose one:
+Choisissez-en un:
 
-- [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-- [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
-- [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
-        - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
+- [Éléments d'entretiens de programmation (version C++)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [Éléments d'entretiens de programmation en Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
+- [Éléments d'entretiens de programmation (version Java)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+        - [Projet d'accompagnement - Stub de méthode et cas de test pour chaque problème du livre](https://github.com/gardncl/elements-of-programming-interviews)
 
-## Don't Make My Mistakes
+## Ne faites pas mes erreurs
 
-This list grew over many months, and yes, it got out of hand.
+Cette liste s'est allongée pendant de nombreux mois, et oui, elle est devenue incontrôlable.
 
-Here are some mistakes I made so you'll have a better experience. And you'll save months of time.
+Voici quelques erreurs que j'ai commises pour que vous ayez une meilleure expérience. Et que vous gagniez des mois de temps.
 
-### 1. You Won't Remember it All
+### 1. Vous ne vous souviendrez pas de tout
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards, so I could review. I didn't need all of that knowledge.
+J'ai regardé des heures de vidéos et pris de nombreuses notes, et des mois plus tard, il y avait beaucoup de choses dont je ne me souvenais pas. J'ai passé trois jours à parcourir mes notes et à faire des fiches pour pouvoir réviser. Je n'avais pas besoin de toutes ces connaissances.
 
-Please, read so you won't make my mistakes:
+S'il vous plaît, lisez pour ne pas faire mes erreurs:
 
-[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
+[Conserver les connaissances en informatique](https://startupnextdoor.com/retaining-computer-science-knowledge/).
 
 ### 2. Use Flashcards
 
