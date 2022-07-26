@@ -115,8 +115,8 @@ pour les rôles de développement de logiciels/ingénierie.
 ### Le plan d'étude
 
 - [Qu'est-ce que c'est?](#what-is-it)
-- [Pourquoi l'utiliser?](#why-use-it)
-- [Comment l'utiliser](#how-to-use-it)
+- [Pourquoi l'utiliser?](#pourquoi-lutiliser)
+- [Comment l'utiliser](#comment-lutiliser)
 - [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
 - [A Note About Video Resources](#a-note-about-video-resources)
 - [Choose a Programming Language](#choose-a-programming-language)
@@ -432,179 +432,172 @@ S'il vous plaît, lisez pour ne pas faire mes erreurs:
 
 [Conserver les connaissances en informatique](https://startupnextdoor.com/retaining-computer-science-knowledge/).
 
-### 2. Use Flashcards
+### 2. Utiliser des cartes mémoire (flash card)
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting. I made a mobile-first website, so I could review on my phone or tablet, wherever I am.
+Pour résoudre le problème, j'ai créé un petit site de cartes mémoire où je peux ajouter des cartes de 2 types : générales et de code. Chaque carte a un formatage différent. J'ai fait un site mobile-first, pour que je puisse réviser sur mon téléphone ou ma tablette, où que je sois.
 
-Make your own for free:
+Faites le vôtre gratuitement:
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
+- [Repo du site des cartes mémoire](https://github.com/jwasham/computer-science-flash-cards)
 
-**I DON'T RECOMMEND using my flashcards.** There are too many and many of them are trivia that you don't need.
+**Je ne RECOMMANDE PAS d'utiliser mes cartes mémoire.** Il y en a trop et beaucoup d'entre elles sont des futilités dont vous n'avez pas besoin.
 
-But if you don't want to listen to me, here you go:
-- [My flash cards database (1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
-- [My flash cards database (extreme - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
+Mais si vous ne voulez pas m'écouter, voilà :
+- [Ma base de données de cartes mémoire (1200 cartes)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [Ma base de données de cartes mémoire (extrême - 1800 cartes)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. 
-It's way too much for what's required.
+Gardez à l'esprit que je suis allé trop loin et que les cartes couvrent tout, du langage d'assemblage et des questions sur Python à l'apprentissage automatique et aux statistiques. 
+C'est beaucoup trop pour ce qui est requis.
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**Note sur les cartes mémoire** La première fois que vous reconnaissez que vous connaissez la réponse, ne la marquez pas comme connue. Vous devez voir la même carte et y répondre correctement plusieurs fois avant de la connaître vraiment. La répétition va ancrer cette connaissance plus profondément dans votre cerveau.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. 
-It uses a repetition system to help you remember. It's user-friendly, available on all platforms and has a cloud sync system. 
-It costs $25 on iOS but is free on other platforms.
+Une alternative à l'utilisation de mon site de cartes mémoire est [Anki](http://ankisrs.net/), qui m'a été recommandé à de nombreuses reprises. Il utilise un système de répétition pour vous aider à vous souvenir. Il est convivial, disponible sur toutes les plateformes et dispose d'un système de synchronisation sur le cloud. 
+Il coûte 25 dollars sur iOS mais est gratuit sur les autres plateformes.
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya)).
+Ma base de données de cartes mémoire au format Anki : https://ankiweb.net/shared/info/25173560 (merci [@xiewenya](https://github.com/xiewenya)).
 
-Some students have mentioned formatting issues with white space that can be fixed by doing the following: open deck, edit card, click cards, select the "styling" radio button, add the member "white-space: pre;" to the card class.
+Certains étudiants ont mentionné des problèmes de formatage avec des espaces blancs qui peuvent être corrigés en faisant ce qui suit : ouvrez le jeu (open deck), modifiez la carte, cliquez sur les cartes, sélectionnez le bouton radio "style", ajoutez le membre "white-space : pre ;" à la classe de la carte.
 
-### 3. Do Coding Interview Questions While You're Learning
+### 3. Posez des questions d'entretien de codage pendant que vous apprenez
 
-THIS IS VERY IMPORTANT.
+C'EST TRÈS IMPORTANT.
 
-Start doing coding interview questions while you're learning data structures and algorithms.
+Commencez à poser des questions d'entretien de codage pendant que vous apprenez les structures de données et les algorithmes.
 
-You need to apply what you're learning to solving problems, or you'll forget. I made this mistake. 
+Vous devez appliquer ce que vous apprenez à la résolution de problèmes, sinon vous oublierez.
 
-Once you've learned a topic, and feel somewhat comfortable with it, for example, **linked lists**:
-1. Open one of the [coding interview books](#interview-prep-books) (or coding problem websites, listed below) 
-1. Do 2 or 3 questions regarding linked lists. 
-1. Move on to the next learning topic.
-1. Later, go back and do another 2 or 3 linked list problems.
-1. Do this with each new topic you learn. 
+Une fois que vous avez appris un sujet, et que vous vous sentez un peu à l'aise avec lui, par exemple, les **listes liées (linked lists)** :
+1. Ouvrez l'un des [livres d'entretien de codage](#interview-prep-books) (ou les sites Web de problèmes de codage, énumérés ci-dessous).
+2. Répondez à 2 ou 3 questions concernant les listes liées. 
+3. Passez au sujet d'apprentissage suivant.
+4. Plus tard, revenez et faites encore 2 ou 3 problèmes de listes liées.
+5. Faites-le avec chaque nouveau sujet que vous apprenez. 
 
-**Keep doing problems while you're learning all this stuff, not after.**
+**Continuez à faire des problèmes pendant que vous apprenez tout ça, pas après.**
 
-You're not being hired for knowledge, but how you apply the knowledge.
+Vous n'êtes pas embauché pour vos connaissances, mais pour la manière dont vous les appliquez.
 
-There are many resources for this, listed below. Keep going.
+Il existe de nombreuses ressources à ce sujet, énumérées ci-dessous. Continuez.
 
 ### 4. Focus
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music
-without lyrics and you'll be able to focus pretty well.
+Il y a beaucoup de distractions qui peuvent prendre un temps précieux. La concentration est difficile. Mettez de la musique
+sans paroles et vous serez capable de vous concentrer assez bien.
 
-## What you won't see covered
+## Ce que vous ne verrez pas couvert
 
-These are prevalent technologies but not part of this study plan:
+Il s'agit de technologies répandues mais qui ne font pas partie de ce plan d'étude :
 
 - SQL
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS et autres technologies front-end
 
-## The Daily Plan
+## Le plan quotidien
 
-This course goes over a lot of subjects. Each will probably take you a few days, or maybe even a week or more. It depends on your schedule.
+Ce cours aborde de nombreux sujets. Chacun d'entre eux vous prendra probablement quelques jours, voire une semaine ou plus. Cela dépend de votre emploi du temps.
 
-Each day, take the next subject in the list, watch some videos about that subject, and then write an implementation 
-of that data structure or algorithm in the language you chose for this course.
+Chaque jour, prenez le sujet suivant dans la liste, regardez quelques vidéos sur ce sujet, puis écrivez une implémentation 
+de cette structure de données ou de cet algorithme dans le langage que vous avez choisi pour ce cours.
 
-You can see my code here:
+Vous pouvez voir mon code ici:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-You don't need to memorize every algorithm. You just need to be able to understand it enough to be able to write your own implementation.
+Vous n'avez pas besoin de mémoriser chaque algorithme. Vous devez juste être capable de les comprendre suffisamment pour pouvoir écrire votre propre implémentation.
 
-## Coding Question Practice
+## Pratique des questions de codage
 
-    Why is this here? I'm not ready to interview.
+    Pourquoi c'est là ? Je ne suis pas prêt pour l'entretien.
 
-[Then go back and read this.](#3-do-coding-interview-questions-while-youre-learning)
+[Puis retournez-y et lisez ceci.](#3-do-coding-interview-questions-while-youre-learning)
 
-Why you need to practice doing programming problems:
-- Problem recognition, and where the right data structures and algorithms fit in
-- Gathering requirements for the problem
-- Talking your way through the problem like you will in the interview
-- Coding on a whiteboard or paper, not a computer
-- Coming up with time and space complexity for your solutions (see Big-O below)
-- Testing your solutions
+Pourquoi vous devez vous entraîner à résoudre des problèmes de programmation :
+- Reconnaissance des problèmes et place des structures de données et des algorithmes appropriés
+- Recueillir les exigences du problème
+- Parlez du problème comme vous le feriez lors d'un entretien.
+- Codage sur un tableau blanc ou du papier, et non sur un ordinateur
+- Trouver une complexité temporelle et spatiale pour vos solutions (voir Big-O ci-dessous).
+- Tester vos solutions
 
-There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
-interview books, too, but I found this outstanding:
-[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
+La résolution méthodique et communicative de problèmes fait l'objet d'une grande introduction dans un entretien. Vous trouverez cela dans les livres d'entretien d'entretien de programmation, mais j'ai trouvé cette introduction exceptionnelle :
+[Canevas de conception d'algorithmes](http://www.hiredintech.com/algorithm-design/)
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then type it and test it out on a computer.
+Écrivez le code sur un tableau blanc ou du papier, pas sur un ordinateur. Testez-le avec des exemples d'entrées. Ensuite, tapez-le et testez-le sur un ordinateur.
 
-If you don't have a whiteboard at home, pick up a large drawing pad from an art store. You can sit on the couch and practice. 
-This is my "sofa whiteboard". I added the pen in the photo just for scale. If you use a pen, you'll wish you could erase. 
-Gets messy quick. **I use a pencil and eraser.**
+Si vous n'avez pas de tableau blanc à la maison, achetez un grand bloc à dessin dans un magasin d'art. Vous pouvez vous asseoir sur le canapé et vous entraîner. Voici mon "tableau blanc de canapé". J'ai ajouté le stylo sur la photo juste pour l'échelle. Si vous utilisez un stylo, vous souhaiterez pouvoir l'effacer. C'est vite salissant. **J'utilise un crayon et une gomme.**
 
 ![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
-**Coding question practice is not about memorizing answers to programming problems.**
+**La pratique des questions de codage ne consiste pas à mémoriser les réponses aux problèmes de programmation.**
 
-## Coding Problems
+## Problèmes de codage
 
-Don't forget your key coding interview books [here](#interview-prep-books).
+N'oubliez pas vos livres clés pour l'entretien de codage [here](#interview-prep-books).
 
-Solving Problems:
-- [How to Find a Solution](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
-- [How to Dissect a Topcoder Problem Statement](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
+Résoudre des problèmes :
+- [Comment trouver une solution](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
+- [Comment analyser un énoncé de problème Topcoder ?](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
 
-Coding Interview Question Videos:
-- [IDeserve (88 videos)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+Vidéos de questions d'entretien de codage :
+- [IDeserve (88 vidéos)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
 - [Tushar Roy (5 playlists)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
-    - Super for walkthroughs of problem solutions
-- [Nick White - LeetCode Solutions (187 Videos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
-    - Good explanations of solution and the code
-    - You can watch several in a short time
+    - Super pour la présentation des solutions aux problèmes
+- [Nick White - LeetCode Solutions (187 Vidéos)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - Bonnes explications de la solution et du code
+    - Vous pouvez en regarder plusieurs en peu de temps
 - [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
 - [Neetcode - BLIND 75 LeetCode Solutions](https://www.youtube.com/watch?v=KLlXCFG5TnA&list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf)
-    - Good explanations of solution and the python code
-    - Also checkout [excel sheet](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0) for all question list
-    - [Github links](https://github.com/neetcode-gh/leetcode) for all solutions code
+    - Bonnes explications de la solution et du code python
+    - Consultez également la [feuille Excel](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0) pour la liste des questions.
+    - [Liens Github](https://github.com/neetcode-gh/leetcode) pour le code de toutes les solutions
     - [Neetcode 150](https://neetcode.io/)
 
-Challenge sites:
+Sites de défis :
 - [LeetCode](https://leetcode.com/)
-    - My favorite coding problem site. It's worth the subscription money for the 1-2 months you'll likely be preparing.
-    - See Nick White and FisherCoder Videos above for code walk-throughs.
+    - Mon site préféré pour les problèmes de codage. Il vaut la peine de s'abonner pour les 1 ou 2 mois de préparation.
+    - Voir les vidéos de Nick White et de FisherCoder ci-dessus pour des exemples de code.
 - [HackerRank](https://www.hackerrank.com/)
 - [TopCoder](https://www.topcoder.com/)
 - [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
 - [InterviewBit](https://www.interviewbit.com/)
 - [Project Euler](https://projecteuler.net/)
 
-## Let's Get Started
+## Commençons
 
-Alright, enough talk, let's learn!
+Bon, assez parlé, apprenons !
 
-But don't forget to do coding problems from above while you learn!
+Mais n'oubliez pas de faire les problèmes de codage plus haut pendant que vous apprenez !
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
+## Complexité algorithmique / Big-O / Analyse asymptotique
 
-- Nothing to implement here, you're just watching videos and taking notes! Yay!
-- There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
-- Don't worry if you don't understand all the math behind it.
-- You just need to understand how to express the complexity of an algorithm in terms of Big-O.
-- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Skiena (video)](https://www.youtube.com/watch?v=z1mkCe3kVUA)
-- [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
-- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] TopCoder (includes recurrence relations and master theorem):
-    - [Computational Complexity: Section 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
-    - [Computational Complexity: Section 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
-- [ ] [Cheat sheet](http://bigocheatsheet.com/)
+- Rien à mettre implementer ici, vous ne faites que regarder des vidéos et prendre des notes! Yeah!
+- Il y a beaucoup de vidéos ici. Regardez-en suffisamment jusqu'à ce que vous compreniez. Vous pouvez toujours revenir et réviser.
+- Ne vous inquiétez pas si vous ne comprenez pas toutes les mathématiques qui se cachent derrière.
+- Vous devez simplement comprendre comment exprimer la complexité d'un algorithme en termes de Big-O.
+- [ ] [Harvard CS50 - Notation asymptotique (vidéo)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [Notations Big O (tutoriel général rapide) (vidéo)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [Notation Big O (et Omega et Theta) - meilleure explication mathématique (vidéo)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [Skiena (vidéo)](https://www.youtube.com/watch?v=z1mkCe3kVUA)
+- [ ] [UC Berkeley Big O (vidéo)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+- [ ] [Analyse amortie (vidéo)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] TopCoder (inclut les relations de récurrence et le *master theorem*):
+    - [Complexité computationnelle : Section 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
+    - [Complexité computationnelle : Section 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
+- [ ] [Aide-mémoire (Cheat sheet)](http://bigocheatsheet.com/)
 
-Well, that's about enough of that. 
+Eh bien, c'est assez de ça.
 
-When you go through "Cracking the Coding Interview", there is a chapter on this, and at the end there is a quiz to see 
-if you can identify the runtime complexity of different algorithms. It's a super review and test.
+Lorsque vous lisez "Cracking the Coding Interview", il y a un chapitre sur ce sujet, et à la fin il y a un quiz pour voir 
+si vous pouvez identifier la complexité d'exécution de différents algorithmes. C'est un super examen et test.
 
-## Data Structures
+## Structures de données
 
-- ### Arrays
-    - [ ] About Arrays:
-        - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+- ### Arrays (Tableaux)
+    - [ ] À propos des tableaux :
+        - [Tableaux (vidéo)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [UC Berkeley CS61B - Tableaux linéaires et multidimensionnels (vidéo)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Commencez à regarder à partir de 15m 32s)
+        - [Tableaux dynamiques (vidéo)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
